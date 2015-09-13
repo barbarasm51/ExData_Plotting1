@@ -36,6 +36,8 @@ alldata=transform(alldata,datetime=as.POSIXlt(paste(alldata$Date,alldata$Time),f
 
 ## create plot1 png file
 
-png(filename="~/plot1.png",height=480,width=480,bg="white")
+png(filename="~/Desktop/Coursera/ExploratoryDataAnalysis/project1/plot1.png",height=480,width=480,bg="white")
 plot1=hist(alldata$Global_active_power,col="red",xlab="Global Active Power (kilowatts)",main="Global Active Power")
 dev.off()
+
+
